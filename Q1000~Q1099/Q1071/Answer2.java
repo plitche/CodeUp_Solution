@@ -1,6 +1,6 @@
-// URL	: https://www.codeup.kr/problem.php?id=1071
-// 풀이 	: BufferedReader, StringBuilder
-// 메모리 	: 11144, 시간 62
+// URL : https://www.codeup.kr/problem.php?id=1071
+// 풀이 : BufferedReader, StringBuilder
+// 메모리 : 11144, 시간 62
 
 package Q1071;
 
