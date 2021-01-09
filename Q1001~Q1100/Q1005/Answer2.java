@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 // @author Yongsoo Kwon
-// @URL https://www.codeup.kr/problem.php?id=1004
+// @URL https://www.codeup.kr/problem.php?id=1005
 // @How BufferedWriter
 // @Memory 11040, @Time 84
 
