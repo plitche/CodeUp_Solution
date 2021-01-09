@@ -3,7 +3,7 @@ package Q1011;
 import java.util.Scanner;
 
 //@author Yongsoo Kwon
-//@URL https://www.codeup.kr/problem.php?id=1012
+//@URL https://www.codeup.kr/problem.php?id=1011
 //@How Scanner + System.out.prinln()
 //@Memory 12392, @Time 159
 
