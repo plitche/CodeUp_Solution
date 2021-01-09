@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1010
-//@How BufferedReder, StringBuilder
+//@How BufferedReader, StringBuilder
 //@Memory 11108, @Time 100
 
 public class Answer2 {
