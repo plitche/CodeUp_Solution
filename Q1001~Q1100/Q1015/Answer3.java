@@ -3,7 +3,7 @@ package Q1015;
 import java.util.Scanner;
 
 // @author Yongsoo Kwon
-// @URL https://www.codeup.kr/problem.php?id=
+// @URL https://www.codeup.kr/problem.php?id=1015
 // @How Scanner, Math.round()
 // @Memory 14324, @Time 132
 
