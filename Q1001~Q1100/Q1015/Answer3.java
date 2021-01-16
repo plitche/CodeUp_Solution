@@ -22,5 +22,6 @@ public class Answer3 {
 		System.out.println(String.format("%.2f", number));
 		// String.format을 쓴 이유: 그냥 number를 출력하게되면 1.0형태로 출력됨. 1.00형태로 출력하기 위해
 		// String.format에 대한 설명은 Q1012 - Answer1 참고
+		sc.close();
 	}
 }

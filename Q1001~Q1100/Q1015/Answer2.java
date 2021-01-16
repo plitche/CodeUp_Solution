@@ -21,5 +21,6 @@ public class Answer2 {
 		// Math.round() 함수와 같이 n번째 자리까지 반올림하여 나타낼 수 있다.
 		
 		// Math.round()와 String.format에 대한 차이점은 Q1015 - Answer3에서 설명
+		sc.close();
 	}
 }
