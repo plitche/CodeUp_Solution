@@ -17,7 +17,7 @@ public class Answer2 {
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		int a = Integer.parseInt(st.nextToken());
 		int b = Integer.parseInt(st.nextToken());
-		// 입력된 한 줄을 공백을 기준으로 a,b로 나누어 저장한다.
+		// 정수 2개를 입력 받는다.
 		
 		// 입력받은 정수를 비트단위 연산자로 계산한다.
 		System.out.println(a^b);	// ^연산자는 xor, circumflex/caret 서컴플렉스/카릿 이라고 한다.

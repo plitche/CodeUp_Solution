@@ -17,7 +17,7 @@ public class Answer2 {
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		int a = Integer.parseInt(st.nextToken());
 		int b = Integer.parseInt(st.nextToken());
-		// 입력된 한 줄을 공백을 기준으로 a,b로 나누어 저장한다.
+		// 정수 2개를 입력 받는다.
 		
 		// 삼항 연산자를 이용해서 출력한다. (문제 조건)
 		System.out.println(a>b ? a : b);
