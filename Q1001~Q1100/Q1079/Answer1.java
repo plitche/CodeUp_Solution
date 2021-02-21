@@ -11,6 +11,7 @@ public class Answer1 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		sc.close();
 		String letters = sc.nextLine();
 		String[] letter = letters.split(" ");	
 		// 입력받은 문자열을 띄어쓰기 기준으로 분리하여 String배열에 저장한다. 
@@ -24,7 +25,6 @@ public class Answer1 {
 			}
 		}
 		
-		sc.close();
 	}
 }
 

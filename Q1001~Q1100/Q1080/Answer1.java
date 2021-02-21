@@ -13,13 +13,13 @@ public class Answer1 {
 		Scanner sc = new Scanner(System.in);
 		int maxNum = sc.nextInt();
 		
-		int countNum = 1;
-		while(maxNum > 0) {
-			maxNum -= countNum;
-			countNum+=1;
+		int countNum = 1;	// 순차적으로 빼 줄 숫자를 1로 먼저 설정
+		while(maxNum > 0) {	// maxNum가 0보다 크면 계속해서 수행될 while문
+			maxNum -= countNum;	
+			countNum+=1;	// maxNum에서 빼 준 이후 빼줄 숫자를 1씩 더한다.
 		}
 		
-		System.out.println(countNum-1);
+		System.out.println(countNum-1); // 
 		sc.close();
 	}
 }
