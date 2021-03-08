@@ -1,7 +1,7 @@
 package Q1108;
 
 //@author Yongsoo Kwon
-//@URL https://www.codeup.kr/problem.php?id=1107
+//@URL https://www.codeup.kr/problem.php?id=1108
 //@Memory 11024, @Time 63
 
 public class Answer1 {
