@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
-//@URL https://www.codeup.kr/problem.php?id=1170
+//@URL https://www.codeup.kr/problem.php?id=1171
 //@Memory 11252, @Time 104
 
 public class Answer1 {
