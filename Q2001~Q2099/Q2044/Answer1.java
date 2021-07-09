@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
-//@URL https://www.codeup.kr/problem.php?id=2041
+//@URL https://www.codeup.kr/problem.php?id=2044
 //@Memory 11152, @Time 62
 public class Answer1 {
 
