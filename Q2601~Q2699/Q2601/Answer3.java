@@ -18,7 +18,6 @@ public class Answer3 {
         		a = b;
         		b += temp;
         		temp = a;
-        				
         	}
         }
         
