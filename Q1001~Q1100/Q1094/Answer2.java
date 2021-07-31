@@ -25,7 +25,7 @@ public class Answer2 {
         for (int i : a) { // 향상 for문
             sb.append(i).append(" ");
         }
-        System.out.println(sb);
+        System.out.print(sb);
     }
 
 }
