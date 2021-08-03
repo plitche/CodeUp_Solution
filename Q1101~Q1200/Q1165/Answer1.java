@@ -34,7 +34,6 @@ public class Answer1 {
         bw.append(String.valueOf(currentGoalScore));
         bw.flush();
         bw.close();
-
     }
 
 }
