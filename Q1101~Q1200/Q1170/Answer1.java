@@ -18,7 +18,6 @@ public class Answer1 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		// 순서대로 입력 될 학년, 반을 바로 더해준다.
