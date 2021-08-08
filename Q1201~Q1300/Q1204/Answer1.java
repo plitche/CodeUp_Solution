@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1204
-//@Memory 11164, @Time 93
+//@Memory 11172, @Time 68
 
 public class Answer1 {
 	// 1~99 중 하나가 숫자가 입력되면 영어 서수 표현을 출력하시오.
@@ -30,7 +30,7 @@ public class Answer1 {
 			}
 		}
 		
-		System.out.println(sb);
+		System.out.print(sb);
 		br.close();
 	}
 
