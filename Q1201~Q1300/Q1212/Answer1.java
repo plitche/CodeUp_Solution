@@ -25,6 +25,8 @@ public class Answer1 {
 
         // 삼각형이 맞는지 아닌지 판단 먼저 false로 초기화
         boolean yesno = false;
+        
+        // 가장 큰 변의 길이가 나머지 두변의 길이의 합보다 작은지 판단
         if (a>b) {
             if (a>c) {
                 if (a<b+c) {
