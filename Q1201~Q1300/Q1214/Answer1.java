@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1214
-//@Memory 11224, @Time 92
+//@Memory 11192, @Time 68
 
 public class Answer1 {
 	//  연도와 월을 알고 있을 때 그 달의 마지막 날을 구하는 프로그램을 작성하시오.

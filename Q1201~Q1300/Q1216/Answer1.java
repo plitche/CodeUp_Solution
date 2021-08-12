@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1216
-//@Memory 11176, @Time 89
+//@Memory 11180, @Time 62
 
 public class Answer1 {
 	//  입력으로 세 정수가 입력된다. 첫번째 정수는 홍보를 하지 않을 경우 수입, 두번째 정수는 홍보를 할 경우의 수입, 세번째 정수는 홍보비용을 의미한다.
