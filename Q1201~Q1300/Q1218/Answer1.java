@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1218
-//@Memory 11176, @Time 87
+//@Memory 11176, @Time 67
 
 public class Answer1 {
 	//  삼각형의 3변의 길이 a, b, c가 입력으로 주어진다.
