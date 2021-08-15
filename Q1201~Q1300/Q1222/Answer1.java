@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1222
-//@Memory 11208, @Time 109
+//@Memory 11184, @Time 69
 
 public class Answer1 {
 	//  축구경기 타임은 총 90분이고, 성익이는 5분마다 골을 넣을 수 있는 능력을 가지고 있다.
@@ -26,13 +26,14 @@ public class Answer1 {
         // 추가 골 숫자를 0으로 초기화
         int addGoal = 0;
         
+        // 남은 시간 기준 계산하기
         if ((90-time)%5==0) {
         	addGoal = (90-time)/5; 
         } else {
         	addGoal = (90-time)/5+1;        	
         }
         
-        // 3항 연산자 이용
+        // 3항 연산자 이용 (중복 3항 연산자)
         sb.append(addGoal>(goal2-goal1) ? "win" : addGoal<(goal2-goal1) ? "lose" : "same");
         
         System.out.println(sb);

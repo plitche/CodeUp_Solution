@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1224
-//@Memory 11196, @Time 92
+//@Memory 11180, @Time 69
 
 public class Answer1 {
 	//  분수의 크기를 비교하는 프로그램을 작성하시오.
@@ -28,7 +28,7 @@ public class Answer1 {
         double first = (double)a/b;
         double second = (double)c/d;
         
-        // 3항 연산자 이용
+        // 3항 연산자 이용 (중복 3항 연산자)
         sb.append(first>second ? ">" : first<second ? "<" : "=");
         
         System.out.println(sb);
