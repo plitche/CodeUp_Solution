@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1230
-//@Memory 11164, @Time 151
+//@Memory 11160, @Time 94
 
 public class Answer1 {
 	//	어떤 차의 높이가 170cm 이다.
@@ -23,18 +23,18 @@ public class Answer1 {
         int b = Integer.parseInt(st.nextToken());
         int c = Integer.parseInt(st.nextToken());
 
-        // a, b, c 순서대로 통화 => 순서대로 조건문 작성
+        // a, b, c 순서대로 통과 => 순서대로 조건문 작성
         if (a<=170) {
-        	sb.append("CRASH").append(" "+a);
+        	sb.append("CRASH ").append(a);
         } else if (b<=170) {
-        	sb.append("CRASH").append(" "+b);
+        	sb.append("CRASH ").append(b);
         } else if (c<=170) {
-        	sb.append("CRASH").append(" "+c);
+        	sb.append("CRASH ").append(c);
         } else {
         	sb.append("PASS");	//모두 통과하면 pass
         }
         
-        System.out.println(sb);
+        System.out.print(sb);
         br.close();
     }
 
