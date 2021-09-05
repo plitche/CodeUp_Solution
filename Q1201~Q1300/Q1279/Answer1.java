@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1279
-//@Memory 11184, @Time 83
+//@Memory 11212, @Time 69
 
 public class Answer1 {
 	//	두 자연수 a, b 사이의 구간에 대해서 홀수는 더하고 짝수는 뺀다음의 합을 출력하시오.
