@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1287
-//@Memory 11156, @Time 114
+//@Memory 11144, @Time 109
 
 public class Answer1 {
 	//	구구단을 입력받아 *로 출력하라. 입력받은 수가 1~9사이의 수인지 확인한다.
