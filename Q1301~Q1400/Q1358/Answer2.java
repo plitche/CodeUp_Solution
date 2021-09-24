@@ -16,10 +16,13 @@ public class Answer2 {
         StringBuffer sb = new StringBuffer();
         int n = Integer.parseInt(br.readLine());
 
+        // 입력받은 숫자만큼 for문 반복
         for (int i=0; i<n; i+=2) {
+        	// 가로로 붙여야 하는 공백의 개수만큼 for문 반복
             for(int j=n/2; j>i/2; j--) {
                 sb.append(" ");
             }
+            // 가로로 붙여야 하는 별의 개수만큼 for문 반복 
             for (int j=n-i; j<=n; j++) {
                 sb.append("*");
             }
