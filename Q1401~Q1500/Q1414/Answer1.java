@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1414
-//@Memory 11108, @Time 108
+//@Memory 11128, @Time 67
 
 public class Answer1 {
 	//	문자열에서 “C”라는 문자와 “CC”라는 문자가 몇 개 있는지 조사하고자 한다.

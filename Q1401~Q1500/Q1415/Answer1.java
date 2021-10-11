@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1415
-//@Memory 11164, @Time 96
+//@Memory 11164, @Time 70
 
 public class Answer1 {
 	//	가장 큰 홀수 하나와 짝수 하나를 출력한다. 단 홀수 혹은 짝수만 존재할 경우에는 가장 큰 수를 출력한다.
