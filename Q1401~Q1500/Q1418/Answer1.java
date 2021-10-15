@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1418
-//@Memory 11120, @Time 87
+//@Memory 11156, @Time 61
 
 public class Answer1 {
 	//	어떤 문자열이 있을 때 문자 t의 위치를 모두 찾아 출력하시오.

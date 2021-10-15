@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1419
-//@Memory 11100, @Time 83
+//@Memory 11112, @Time 67
 
 public class Answer1 {
 	//	영어 문장이 입력된다. 그 문장에서 love가 몇 번 나오는지 출력하시오.
