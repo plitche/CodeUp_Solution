@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1420
-//@Memory 11256, @Time 94
+//@Memory 11312, @Time 81
 
 public class Answer1 {
 	//	n명의 친구들의 이름과 정보 성적이 주어졌을 때 성적이 세 번째로 높은 학생의 이름을 출력하시오.
