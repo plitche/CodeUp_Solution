@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1452
-//@Memory 37808, @Time 300
+//@Memory 31692, @Time 261
 
 public class Answer1 {
 	//	두 배열을 합쳐서 오름차순 정렬된 배열을 출력하시오.

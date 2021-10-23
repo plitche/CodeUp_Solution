@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1462
-//@Memory 12508, @Time 82
+//@Memory 12708, @Time 74
 
 public class Answer1 {
 	//	두 배열을 합쳐서 오름차순 정렬된 배열을 출력하시오.
