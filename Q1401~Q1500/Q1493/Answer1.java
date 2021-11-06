@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1484
-//@Memory 11184, @Time 92
+//@Memory 11184, @Time 69
 
 public class Answer1 {
 	//	다음과 같은 n*m 배열 구조를 출력해보자.
