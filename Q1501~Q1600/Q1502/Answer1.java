@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1502
-//@Memory 11372, @Time 93
+//@Memory 11336, @Time 72
 
 public class Answer1 {
 	//	다음과 같은 n*m 배열 구조를 출력해보자.
