@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1513
-//@Memory 12304, @Time 109
+//@Memory 12436, @Time 84
 
 public class Answer1 {
 
