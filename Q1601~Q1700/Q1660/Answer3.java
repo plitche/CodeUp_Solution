@@ -15,8 +15,10 @@ public class Answer3 {
         StringBuilder sb = new StringBuilder();
         String line = br.readLine();
         
+        // ,(컴마)를 기준으로 나누어 배열에 저장한다.
         String[] words = line.split(",");
         
+        // 향상 for문을 이용하여 ,(컴마)를 기준으로 나눈 인덱스 값들은 합친다.
         for (String a : words) {
         	sb.append(a).append(" ");
         }

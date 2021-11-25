@@ -15,6 +15,7 @@ public class Answer2 {
         StringBuilder sb = new StringBuilder();
         String line = br.readLine();
 
+        // 문자열 String 의 메소드인 replace 활용
         sb.append(line.replace(',', ' '));
         
         System.out.println(sb);

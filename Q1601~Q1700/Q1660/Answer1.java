@@ -13,9 +13,11 @@ public class Answer1 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // ,(컴마) 기준으로 문자열을 나누어 토큰을 활용
         StringTokenizer st = new StringTokenizer(br.readLine(), ",");
         StringBuilder sb = new StringBuilder();
 
+        // 토큰이 있을때까지 반복
         while(st.hasMoreTokens()) {
         	sb.append(st.nextToken()).append(" ");
         }
