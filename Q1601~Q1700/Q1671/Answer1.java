@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1671
-//@Memory 11172, @Time 68
+//@Memory 11200, @Time 67
 
 public class Answer1 {
 	// 바위=0, 가위=1, 보=2
