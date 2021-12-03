@@ -16,7 +16,7 @@ public class Answer1 {
         StringBuilder sb = new StringBuilder();
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         
-        String a = st.nextToken();
+        String a = st.nextToken(); // 토큰에서 꺼내어 변수에 저장
         String b = st.nextToken();
         String c = st.nextToken();
         
