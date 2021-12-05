@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1702
-//@Memory 11164, @Time 96
+//@Memory 11188, @Time 72
 
 public class Answer1 {
 	
@@ -19,6 +19,7 @@ public class Answer1 {
         String b = st.nextToken();
         String c = st.nextToken();
         
+        // 홀수인지 판단하여 출력형태 3항 연산자 사용
         System.out.println(Integer.parseInt(b)%2 == 0 ? a+b+c+" "+a+b+c : a+b+c);
     }
     	 
