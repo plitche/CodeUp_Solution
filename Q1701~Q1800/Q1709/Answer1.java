@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1709
-//@Memory 11280, @Time 96
+//@Memory 11328, @Time 68
 
 public class Answer1 {
 	
@@ -18,12 +18,12 @@ public class Answer1 {
         int many = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-        int[] numbers = new int[many];
+        int[] numbers = new int[many]; // 입력받는 길이만큼 배열 길이 선언
         for (int i=0; i<many; i++) {
-        	numbers[i] = Integer.parseInt(st.nextToken());
+        	numbers[i] = Integer.parseInt(st.nextToken()); // 토큰에서 하나씩 꺼내서 배열에 저장
         }
         
-        Arrays.sort(numbers);
+        Arrays.sort(numbers); // 정렬
         
         for (int i=many-1; i>=0; i--) {
         	sb.append(numbers[i]).append(" ");
