@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1715
-//@Memory 11176, @Time 94
+//@Memory 11192, @Time 68
 
 public class Answer1 {
 	
