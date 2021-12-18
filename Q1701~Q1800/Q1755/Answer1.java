@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1755
-//@Memory 11152, @Time 96
+//@Memory 11176, @Time 67
 
 public class Answer1 {
 	
@@ -15,8 +15,8 @@ public class Answer1 {
         StringBuilder sb = new StringBuilder();
         String file = br.readLine();
 
-        int index = file.indexOf('.');
-        String extend = file.substring(index);
+        int index = file.indexOf('.'); // .의 위치 찾기
+        String extend = file.substring(index); // .기준으로 잘라서 확장자 찾기
         
         switch(extend) {
         case ".dib" : sb.append("Paint.Picture"); break;

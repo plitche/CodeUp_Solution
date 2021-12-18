@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1760
-//@Memory 11160, @Time 92
+//@Memory 11172, @Time 64
 
 public class Answer1 {
 	
@@ -18,9 +18,10 @@ public class Answer1 {
 
         char[] numbers = new char[10];
         for (int i=0; i<numbers.length; i++) {
-        	numbers[i] = Line.charAt(i);
+        	numbers[i] = Line.charAt(i); // 각자리의 문자를 배열에 저장
         }
         
+        // 해당 문자가 일치하는지 조건문을 이용하여 번호를 저장
         for (int i=0; i<phoneNum.length(); i++ ) {
         	if (phoneNum.charAt(i) == ' ') sb.append(' ');
         	if (phoneNum.charAt(i) == numbers[0]) sb.append('0');
