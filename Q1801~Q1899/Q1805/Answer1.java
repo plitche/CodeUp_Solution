@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1805
-//@Memory 14584, @Time 181
+//@Memory 14764, @Time 131
 class machine {
 	 int no;
 	 int gas;
