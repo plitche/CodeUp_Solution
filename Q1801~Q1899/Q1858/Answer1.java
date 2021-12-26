@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=1858
-//@Memory 11172, @Time 79
+//@Memory 11188, @Time 70
 public class Answer1 {
 	
 	public static void main(String[] args) throws IOException {
@@ -20,7 +20,7 @@ public class Answer1 {
 	}
 	
 	public static int loop(int line, int position) {
-
+		// 위치번호가 1이면 1리턴, 위치번호와 줄번호가 같으면 1 리턴, 줄번호가 1이면 1리턴
 		if (position==1 || position==line || line==1 ) {
 			return 1;
 		} else {
