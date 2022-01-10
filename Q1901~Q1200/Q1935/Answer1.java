@@ -20,12 +20,12 @@ public class Answer1 {
 	}
 	
 	public static int loop(int a, int b) {
-		if (a==b) {
+		if (a==b) { // 동일한 숫자가 되면 a를 리턴하고 멈춘다.
 			return a;
-		} else if(a>b) {
+		} else if(a>b) { // a가 b보다 크면 a를 /2 해서 파라미터로 넘긴다.
 			return loop(a/2, b);
 		} else {
-			return loop(a,b/2);
+			return loop(a,b/2); // 반대의 경우  b를 2로 나눈다.
 		}
 	}
     	 
