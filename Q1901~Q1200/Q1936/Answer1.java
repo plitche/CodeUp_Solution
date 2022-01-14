@@ -20,12 +20,12 @@ public class Answer1 {
 	}
 	
 	public static int loop(int a, int b) {
-		if (a==b) {
+		if (a==b) { // 거리가 같을 때에는 0을 리턴
 			return 0;
-		} else if(a>b) {
+		} else if(a>b) { // a가 더 큰 경우에는 a를 2로 나누고 +1
 			return loop(a/2, b)+1;
 		} else {
-			return loop(a,b/2)+1;
+			return loop(a,b/2)+1; // b가 더 큰 경우에는 b를 2로 나눈 결과에 1을 더한다.
 		}
 	}
     	 
