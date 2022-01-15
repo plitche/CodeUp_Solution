@@ -15,9 +15,9 @@ public class Answer1 {
 
         int total = 0;
         for (int i=0; i<number.length(); i++) {
-        	total += number.charAt(i)-48;
+        	total += number.charAt(i)-48; 
         }
-        
+        // 3항 연산자를 이용하여, 3의 배수일때는 1 출력 아니면 0 출력
         System.out.println(total%3 == 0 ? "1" : "0");
 	}
     	 
