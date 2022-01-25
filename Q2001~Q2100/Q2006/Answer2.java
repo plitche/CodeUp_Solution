@@ -25,12 +25,12 @@ public class Answer2 {
             }
         }
 
-        for (int i=0; i<M; i++) {
+        for (int i=M-1; i>=0; i--) {
             int count = 0;
 
-            for (int j=0; j<N; j++) {
-                for (int k=i; k<M; k++) {
-                    if (arr[k][j] < arr[k][j+1]) {
+            for (int j=N-1; j>=0; j--) {
+                for (int k=i; k>=0; k--) {
+                    if (arr[k][j] < arr[k][j-1]) {
                         count++;
                     } else {
                         count--;
@@ -38,7 +38,7 @@ public class Answer2 {
                 }
 
                 if (count == -3 || count == 3) {
-                    System.out.println(i + " : " + j);
+                    System.out.println((i+1) + " : " + (j+1));
                 }
             }
         }
