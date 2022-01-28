@@ -22,16 +22,16 @@ public class Answer1 {
         	int count = 0;
         	
         	for (int j=0; j<String.valueOf(i).length(); j++) {
-        		char index = String.valueOf(i).charAt(j);
-    			if (index == '3' || index == '6' || index == '9') {
+        		char index = String.valueOf(i).charAt(j); // j번째 자리의 숫자가
+    			if (index == '3' || index == '6' || index == '9') { // 3의 배수일떄 count++
     				count++;
     			}
     		}
         	
-        	if (count == 0) {
+        	if (count == 0) { // count가 0 이면 i숫자를 그대로 출력
         		sb.append(i).append("\n");
         	} else {
-        		for(int j=0; j<count; j++) {
+        		for(int j=0; j<count; j++) { // count만큼(3의 배수만큼) K찍기
         			sb.append("K");
         		}
         		sb.append("\n");
