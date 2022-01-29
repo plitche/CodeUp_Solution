@@ -13,12 +13,12 @@ public class Answer1 {
 	public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
+        int a = Integer.parseInt(st.nextToken()); // 시작 수
+        int b = Integer.parseInt(st.nextToken()); // 마지막 수
         
         int count = 0;
-        for (int i=a; i<=b; i++) {
-        	for (int j=0; j<String.valueOf(i).length(); j++) {
+        for (int i=a; i<=b; i++) { // a부터 b까지 for문 반복
+        	for (int j=0; j<String.valueOf(i).length(); j++) { // 각 자리 숫자 length만큼 반복문
         		if (String.valueOf(i).charAt(j) == '1') {
         			count++;
         		}

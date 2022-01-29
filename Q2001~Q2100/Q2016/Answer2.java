@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=2016
-//@Memory 11168, @Time 72
+//@Memory 11188, @Time 69
 public class Answer2 {
 	
 	public static void main(String[] args) throws IOException {
