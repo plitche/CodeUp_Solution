@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //@author Yongsoo Kwon
 //@URL https://www.codeup.kr/problem.php?id=2023
-//@Memory 11164, @Time 69
+//@Memory 11164, @Time 61
 public class Answer1 {
 
 	public static void main(String[] args) throws IOException {
@@ -16,8 +16,8 @@ public class Answer1 {
         	
         int[] arr = new int[10];
         int index = 0;
-        while(number>26) {
-        	int left = number%26;
+        while(number>26) { // 알파벳 개수
+        	int left = number%26; // 해당 number의 나머지
         	if (left==0) {
         		left=26;
         	}
@@ -32,7 +32,7 @@ public class Answer1 {
         
         for (int i=index; i>=0; i--) {
         	if (i-1 >= 0 && result[i-1] == 26) {
-    			sb.append((char)(result[i]+63));       			
+    			sb.append((char)(result[i]+63));	// char타입으로 변환(알파벳으로)  			
     		} else {
     			sb.append((char)(result[i]+64));
     		}
