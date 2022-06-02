@@ -18,4 +18,5 @@
   - Home  : Seoul, South Korea 🛪
 ### &nbsp; &nbsp; &nbsp; Don't hesitate to contact! 👋
 
-<div style="display: none;">asdf</div>
+<div style="visible: hidden;">asdf</div>
+
