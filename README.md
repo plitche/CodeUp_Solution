@@ -17,6 +17,3 @@
   - Phone : 010 7721 3032 ☎️
   - Home  : Seoul, South Korea 🛪
 ### &nbsp; &nbsp; &nbsp; Don't hesitate to contact! 👋
-
-<div data="asdfb">db password</div>
-
