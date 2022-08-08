@@ -53,6 +53,7 @@ public class Answer1 {
         	no++;
         }
         
+        // 2중 for each문을 이용한 Stringbuilder에 데이터 
         for (int[] p : numbers) {
         	for (int q : p) {
         		sb.append(q).append(" ");
