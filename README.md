@@ -1,5 +1,5 @@
 ## 🌏 Yongsoo's CodeUp Solutions
-##### Hi. This is my answer of CodeUp's question
+##### Hi. This is my answer of CodeUp's question  
 ##### Commited only collect Answers
 ##### Try to write comment & the way how to solve every Solution
 
