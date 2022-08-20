@@ -5,7 +5,7 @@
 
 * &nbsp;&nbsp; *URL: www.codeup.kr*
 * &nbsp;&nbsp; [MyProfile of CodeUp](https://codeup.kr/userinfo.php?user=ferdy728)
-* &nbsp;&nbsp; Language: java
+* &nbsp;&nbsp; Language: java 
 ---
 ###### 제가 푼 코드업 문제에 대한 정답 코드입니다.
 ###### '정답입니다.'의 결과인 코드만 커밋하였습니다.
