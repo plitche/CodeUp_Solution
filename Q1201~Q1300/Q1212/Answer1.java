@@ -5,16 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//@author Yongsoo Kwon
-//@URL https://www.codeup.kr/problem.php?id=1212
-//@Memory 11144, @Time 61
-
 public class Answer1 {
-	//	세 개의 직선이 있다. 숫자의 의미는 직선의 길이를 말한다.
-	//	이 직선으로 삼각형을 만들 수 있는지 판단하는 프로그램을 작성하시오.
-	//	삼각형의 성립 조건)
-	//	a, b, c 가 변의 길이이고 c가 제일 긴 길이라고 한다면 c < a + b 이면 삼각형이 성립됨.
-	
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
